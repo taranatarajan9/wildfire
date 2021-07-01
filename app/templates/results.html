@@ -1,122 +1,130 @@
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>
+    <link rel="icon" href="../static/images/aicamplogo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="AI Camp, Covid Mask Detector">
+    <meta name="keywords" content="We Found:, Why do we sometimes miss?, Learn More">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Results</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='nicepage.css') }}" media="screen">
-    <link rel="stylesheet" href="{{ url_for('static', filename='Results.css') }}" media="screen">
-    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}" defer=""></script>
-    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='nicepage.js') }}" defer=""></script>   
-    
-   
-    
+    <title>Prediction</title>
+    <link rel="stylesheet" href="../static/nicepage.css" media="screen">
+<link rel="stylesheet" href="../static/Results.css" media="screen">
+    <script class="u-script" type="text/javascript" src="../static/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="../static/nicepage.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="../static/changeimage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 3.18.4, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
+    
+    
+    
+    
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": "",
-		"url": "index.html",
-		"logo": "images/aicamplogo250.jpg"
+		"logo": "../static/images/aicamplogo.png"
 }</script>
-    <meta property="og:title" content="Results">
-    <meta property="og:type" content="website">
     <meta name="theme-color" content="#478ac9">
-    <link rel="canonical" href="index.html">
-    <meta property="og:url" content="index.html">
+    <meta property="og:title" content="Results Page">
+    <meta property="og:type" content="website">
   </head>
-  <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-bd94"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <a href="{{ url_for('home') }}" class="u-image u-logo u-image-1">
-          <img src="{{ url_for('static', filename='images/aicamplogo250.jpg')}}" class="u-logo-image u-logo-image-1" data-image-width="64">
+  <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-874a"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="../" class="u-image u-logo u-image-1" data-image-width="1079" data-image-height="1080">
+          <img src="../static/images/aicamplogo.png" class="u-logo-image u-logo-image-1" data-image-width="64">
         </a>
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
-          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0;">
-            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-4-light-1 u-text-hover-palette-4-base u-text-palette-4-base" href="#" style="padding: 4px 0; font-size: calc(1em + 8px);">
-              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+          <div class="menu-collapse u-custom-font u-font-roboto" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xlink:href="#menu-hamburger"></use></svg>
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
 </symbol>
 </defs></svg>
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ url_for('home') }}" style="padding: 10px 20px;">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://www.ai-camp.org" target="_blank" style="padding: 10px 20px;">AI Camp</a>
+            <ul class="u-custom-font u-font-roboto u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="https://www.ai-camp.org/" style="padding: 10px 20px;">AI Camp</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="../" data-page-id="482585" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/Results-Page.html#sec-541a" data-page-id="482584" style="padding: 10px 20px;">Why do we sometimes miss?</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/Results-Page.html#sec-fdcd" data-page-id="482584" style="padding: 10px 20px;">Learn More</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-              <div class="u-menu-close"></div>
-              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ url_for('home') }}" style="padding: 10px 20px;">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://www.ai-camp.org" target="_blank" style="padding: 10px 20px;">AI Camp</a>
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://www.ai-camp.org/" style="padding: 10px 20px;">AI Camp</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Home.html#sec-3c46" data-page-id="482585" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Home.html#carousel_e2fe" data-page-id="482585" style="padding: 10px 20px;">Our Mission</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Home.html#carousel_54ae" data-page-id="482585" style="padding: 10px 20px;">Team Xylinx</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Results-Page.html#sec-b69f" data-page-id="482584" style="padding: 10px 20px;">Results</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Results-Page.html#sec-541a" data-page-id="482584" style="padding: 10px 20px;">Why do we sometimes miss?</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Results-Page.html#sec-fdcd" data-page-id="482584" style="padding: 10px 20px;">Learn More</a>
 </li></ul>
+              </div>
             </div>
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
         </nav>
-      </div></header><strong></strong>
-    <section class="u-clearfix u-section-1" id="sec-8cf7">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1 u-grey-5">
-          <div class="u-layout" style="">
-            <div class="u-layout-row" style="">
-              <div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-shading u-size-30 u-size-xs-60" style="background-image: url({{ url_for('files', filename=filename) }}); background-size: contain;" data-image-width="1280" data-image-height="913">
-                <div class="u-container-layout u-container-layout-1" src="">
-                </div>
-              </div>
-              <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-layout-cell-2">
-                <div class="u-container-layout u-valign-middle u-container-layout-2">
-                    <h3 class="mbr-section-title display-4">We found <strong><span style='text-transform: capitalize;'>{{labels}}!</span></strong></h3>
-
-                    {% if labels == 'no emotion' %}
-                    <div>We missed? See why below.</div>
-                    {% else %}
-                    <div class="lead"><em>with {{ confidences }} confidence.</em></div>
-                    {% endif %}
-                  <!--     button added for uploading a photo    -->
-                  <div class="mbr-buttons--left">
-                      <div class="mbr-section-btn">
-                          <a class="u-btn u-button-style u-palette-4-dark-2 u-btn-1" href='https://www.ai-camp.org'>
-                              Visit AI Camp and see how we did this
-                          </a>
-
-                      </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="u-clearfix u-grey-5 u-section-2" id="sec-9f54">
+      </div></header>
+    <section class="u-clearfix u-white u-section-1" id="sec-b69f">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
           <div class="u-layout" style="">
             <div class="u-layout-row" style="">
               <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1" src="">
-                <div class="u-container-layout u-container-layout-1">
-                  <h2 class="u-align-center u-text u-text-1">Why do we sometimes miss?</h2>
-                  <p class="u-align-center u-text u-text-2">Given just three weeks, we only had time to train our model with 2484 labeled images. If we have more time, we can improve our model performance!</p>
+                <div class="u-container-layout u-container-layout-1" style="background-color:#F2F2F2">
+                  <h2 class="u-align-center u-custom-font u-font-playfair-display u-text u-text-1">We Found:</h2>
+                  <p class="u-align-center u-custom-font u-font-roboto u-text u-text-2" style="">
+              {{formatted}}
+ </p>
+                  <p class="u-align-center u-custom-font u-font-roboto u-text" style="font-size:10">
+              {{note}}
+ </p>
                 </div>
               </div>
-              <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="1191" data-image-height="1280">
+<!--               <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1" id="prediction" src="" data-image-width="1080" data-image-height="1080">
                 <div class="u-container-layout u-valign-middle u-container-layout-2" src=""></div>
+              </div> -->
+              <div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-shading u-size-30 u-size-xs-60 u-image-1" style="background-image: url({{ url_for('files', filename=filename) }}); background-size: contain;" data-image-width="1280" data-image-height="913">
+                <div class="u-container-layout u-container-layout-1" src="">
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    
-    
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-533f"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">
-          <a href="https://www.ai-camp.org" class="u-btn u-button-style u-none u-text-palette-4-light-1 u-btn-1" target="_blank">AI Camp - everyone can learn AI</a>
+    <section class="u-clearfix u-white u-section-2" id="sec-541a">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout" style="">
+            <div class="u-layout-row" style="">
+              <div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-shading u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="1080" data-image-height="1080" style="background-image: url({{ url_for('static', filename='images/also_a_fail.jpg') }});">
+                <div class="u-container-layout u-valign-middle u-container-layout-1" src="">
+                </div>
+              </div>
+              <div class="u-align-left u-container-style u-grey-5 u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-layout-cell-2">
+                <div class="u-container-layout u-valign-middle u-container-layout-2">
+                  <h2 class="u-custom-font u-font-playfair-display u-text u-text-3">Why do we sometimes miss?</h2>
+                  <p class="u-custom-font u-font-roboto u-text u-text-4">Given three weeks, our pool of data used to train, test and validate the model was limited. Additionally, the data collected for this project may have inherent bias that may skew the predicted outcomes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-image u-shading u-section-3" src="" data-image-width="150" data-image-height="99" id="sec-fdcd">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-title u-text-1">Learn More</h1>
+        <p class="u-large-text u-text u-text-variant u-text-2">Click here to learn about how to <a href="https://www.doi.gov/blog/10-tips-prevent-wildfires" class="u-active-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-3-base u-btn-1">prevent</a> and <a href="https://www.ready.gov/wildfires" class="u-btn u-button-link u-button-style u-none u-text-palette-3-base u-btn-2">prepare </a>for wildfires
         </p>
-      </div></footer>
-
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-6f1c"><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></footer>
   </body>
 </html>
