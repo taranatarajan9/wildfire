@@ -85,7 +85,7 @@ def results(filename):
     # if we detected something
     if len(class_ids) > 0:
         found = True
-        new_filename = "prediction.jpg"
+        new_filename = "yolo_" + filename
         file_path = os.path.join(app.config['UPLOAD_FOLDER'], new_filename)
         yolo_save_img(image, class_ids, boxes, labels, confidences, COLORS, file_path=file_path)
 
